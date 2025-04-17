@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles for better readability */
+body {
+  @apply text-gray-900;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Increase tap target sizes for better accessibility */
+button, 
+a {
+  @apply min-h-[44px] min-w-[44px];
+}
